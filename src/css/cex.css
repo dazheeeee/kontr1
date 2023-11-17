@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .frame-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .frame-parent1,
+  .frame-parent2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .one-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    width: 100%;
+  }
+
+  .parent,
+  .frame-parent3,
+  .frame-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .div1,
+  .div3 {
+    font-weight: bold;
+  }
+
+  .frame-parent2 {
+    align-items: flex-start;
+  }
+
+  .frame-parent3 {
+    flex: 1;
+  }
+
+  .rectangle-parent {
+    display: flex;
+    align-items: center;
+  }
+
+  .frame-child {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .frame-parent1 {
+      width: 50%;
+    }
+
+    .frame-parent2 {
+      width: 40%;
+    }
+
+    .frame-wrapper {
+      width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .frame-parent1 {
+      width: 40%;
+    }
+
+    .frame-parent2 {
+      width: 50%;
+      align-items: center;
+    }
+
+    .frame-wrapper {
+      width: 40%;
+    }
+  }

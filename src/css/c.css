@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    
+    --font-onest: Onest;
+  
+    
+    --font-size-base: 16px;
+    --font-size-5xl: 24px;
+  
+    
+    --color-white: #fff;
+    --color-whitesmoke: #f8f9fb;
+    --color-darkslategray: #2c3640;
+    --color-darkgray: #959b9f;
+  
+    --gap-5xl: 24px;
+    --gap-base: 16px;
+    --gap-5xs: 8px;
+    --gap-9xs: 4px;
+  
+    
+    --padding-5xl: 24px;
+    --padding-5xs: 8px;
+    --padding-base: 16px;
+  
+    
+    --br-5xl: 24px;
+    --br-5xs: 8px;
+    --br-981xl: 1000px;
+  }
+  
